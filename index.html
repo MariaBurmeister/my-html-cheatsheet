@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lan="en">
+  <head>
+    <title>My Cheatsheet</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <h1>My <span>HTML</span> cheatsheet:</h1>
+
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#tag-list">Tags</a></li>
+        <li><a href="#atributes">Atributes</a></li>
+        <li><a>CSS</a></li>
+        <li></li>
+      </ul>
+    </nav>
+
+
+
+    <main>
+      <section id="tag-list">
+        <h2>These are the <span>HTML</span> tags we know so far:</h2>
+        <ul>
+          <li><a href="#html">html</a></li>
+          <li><a href="#head">head</a></li>
+          <li><a href="#new">new</a></li>
+        </ul>
+      </section>
+
+
+      <article id="html" class="article article1">
+        <h3>&lt;html&gt;</h3>
+        <p><em>&lt;html&gt;</em> is the outermost element in a document.
+          It comes right after the &lt;!DOCTYPE html&gt;
+          declaration and everything else goes inside of it.</p>        <!-- description -->
+
+        <h4>Parents:</h4>      <!-- parents -->
+        <ul>
+          <li>None</li>
+        </ul>
+
+        <h4>Known atributes:</h4>      <!-- atributes -->
+        <ul>
+          <li><a href="#lang">lang:</a></li>
+        </ul>
+
+        <h4>Usual children:</h4>
+        <ul>
+          <li><a href="#head">&lt;head&gt;</a></li>
+          <li><a href="#">&lt;body&gt;</a></li>
+        </ul>
+
+        <a class="TOP" href="#tag-list">TOP</a>
+
+      </article>
+
+      <article id="head" class="article article2">
+        <h3>&lt;head&gt;</h3>
+        <p><em>&lt;head&gt;</em> contains the <span>metadata</span>.
+          Whatever goes within &lt;head&gt; wil <em>NOT</em> show in the Browser.</p>        <!-- description -->
+
+        <h4>Parents:</h4>      <!-- parents -->
+        <ul>
+          <li><a href="#html">&lt;html&gt;</a></li>
+        </ul>
+
+        <h4>Known atributes:</h4>      <!-- atributes -->
+        <ul>
+          <li>None</li>
+        </ul>
+
+        <h4>Usual children:</h4>
+        <ul>
+          <li><a href="#">&lt;link&gt;</a></li>
+          <li><a href="#">&lt;title&gt;</a></li>
+        </ul>
+
+        <a class="TOP" href="#tag-list">TOP</a>
+
+      </article>
+
+      <article id="new" class="article article1">
+        <h3>&lt;&gt;</h3>
+        <p><em>&lt;&gt;</em></p>        <!-- description -->
+
+        <h4>Parents:</h4>      <!-- parents -->
+        <ul>
+          <li><a href="#">&lt;&gt;</a></li>
+        </ul>
+
+        <h4>Known atributes:</h4>      <!-- atributes -->
+        <ul>
+          <li><a href="#"></a></li>
+        </ul>
+
+        <h4>Usual children:</h4>
+        <ul>
+          <li><a href="#">&lt;&gt;</a></li>
+        </ul>
+
+        <a class="TOP" href="#tag-list">TOP</a>
+
+      </article>
+
+      <section id="atributes-table">
+        <table>
+
+          <caption>Atributes, their function, Values and corresponding Elements.</caption>
+
+          <thead>
+            <tr>
+              <th scope="colgroup" colspan="4" class="header">HTML Atributes</th>
+            </tr>
+            <tr>
+              <th scope="col" colspan="1">Name</th>
+              <th scope="col" colspan="1">Function</th>
+              <th scope="col" colspan="1">Possible Values</th>
+              <th scope="col" colspan="1">Corresponding Elements</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <!--**********new row**********-->
+            <tr class="r-impar" id="lang">
+              <th scope="row"><code>lang:</code></th>
+              <td>
+                Declares for screen-readers
+                in  which language the content
+                of the page is written.
+              </td>
+              <td>
+                "en", "por", "es", "fr"...
+              </td>
+              <td>
+                <a href="#html"> <code>&lthtml&gt</code> </a>
+              </td>
+            </tr>
+
+            <!--**********new row**********-->
+            <tr class="r-par" id="href">
+              <th scope="row"><code>href:</code></th>
+              <td>
+                Declares the absolute or relative
+                path or URL to the desired file.
+              </td>
+              <td>
+                "./image.jpg" ""
+              </td>
+              <td>
+                <a href="#a"> <code>&lta&gt</code> </a>,
+                <a href="#"> <code>&lt&gt</code> </a>
+              </td>
+            </tr>
+
+            <!--**********new row**********-->
+            <tr class="r-impar" id="type">
+              <th scope="row"><code>type:</code></th>
+              <td>
+                Declares what type of file should be
+                expected by the browser for efficient
+                rendering reasons.
+              </td>
+              <td>
+                "text", "text/css", "video/mp4", "audio/mp3"...\
+              </td>
+              <td>
+                <a href="#"> <code>&ltimput&gt</code> </a>
+                <a href="#"> <code>&ltstyle&gt</code> </a>
+                <a href="#"> <code>&lt&gt</code> </a>
+              </td>
+            </tr>
+
+            <!--**********new row**********-->
+            <tr class="r-par" id="">
+              <th scope="row"><code>new</code></th>
+              <td>
+                Description
+              </td>
+              <td>
+                Values
+              </td>
+              <td>
+                <a href="#"> <code>&lt&gt</code> </a>
+              </td>
+            </tr>
+
+          </tbody>
+
+        </table>
+        <a class="TOP" href="#tag-list">TOP</a>
+      </section>
+
+
+
+    </main>
+
+  </body>
+
+
+
+
+</html>

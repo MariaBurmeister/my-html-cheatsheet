@@ -1,0 +1,123 @@
+html {
+  font-size: 100%;
+}
+body {
+  font-family: Arial ;
+  font-family: Helvetica ;
+}
+
+header {
+  color: skyblue;
+  font-size: 2rem;
+  border-bottom: 1px solid;
+  padding : 5% 0 0 2%;
+}
+
+a {
+  color: inherit;
+}
+
+nav {
+  color: skyblue;
+  border-bottom: 1px solid;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 4%;
+}
+
+
+#tag-list {
+  color: gray;
+}
+
+ em {
+   font-style: normal;
+   font-weight: bold;
+ }
+
+p, li {
+  line-height: 1.5rem;
+  padding-left: 2%;
+}
+
+.article h3 {
+  font-size: 1.8rem;
+}
+
+.article1 li a {
+  background-color: gray;
+  font-family: monospace;
+  padding: 5px;
+}
+
+.article2 li a {
+  background-color: white;
+  font-family: monospace;
+  padding: 5px;
+}
+
+.article1 {
+  background-color: skyblue;
+  color: white;
+}
+
+.article2 {
+  background-color: lightgray;
+  color: gray;
+}
+
+.TOP {
+  margin-left: 50%;
+}
+
+header, article{
+  padding:5px 2%;
+}
+
+table {
+  width: 100%;
+  margin: 5% 0 5% 0;
+
+}
+
+caption {
+  text-align: left;
+  padding-left: 1%;
+  padding-bottom: .5%;
+}
+
+.header {
+  font-size: 2.5rem;
+  line-height: 4rem;
+  padding: 2%;
+  text-align: left;
+}
+
+th {
+  background-color: skyblue;
+  color: white;
+  font-size: 1.3rem;
+  padding: 1%;
+}
+
+.r-impar td{
+  background-color: lightgray;
+  color: gray;
+  font-size: 1rem;
+  padding: 1%;
+}
+
+
+.r-par td{
+  background-color: gray;
+  color: white;
+  font-size: 1rem;
+  padding: 1%;
+}
+
+code {
+  background-color: gray;
+  color: white;
+}
